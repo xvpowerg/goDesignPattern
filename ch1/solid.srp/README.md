@@ -10,6 +10,7 @@
 假若為了新需求，去修改了原本的程式中的某一個函數，可能會造成其他呼叫使用該函數的的功能，出現非預期的錯誤。
 ## 里氏替換原則(Liskov substitution principle, LSP)
 簡單來說，當實作繼承了 interface 或 base-class的 sub-class，那麼在程式中，只要出現該 interface 或 base-class 的部份，都可以用 sub-class 替換。
+`使用Embedding 取代繼承`
 ## 接口隔離原則(Interface segregation principle, ISP)
 針對不同需求的用戶，開放其對應需求的介面，提拱使用。可避免不相關的需求介面異動，造成被強迫一同面對異動的情況。
 ## 依賴反轉原則(Dependency inversion principle, DIP)
