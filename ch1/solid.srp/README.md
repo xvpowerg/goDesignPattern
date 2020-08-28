@@ -9,6 +9,7 @@
 當需求有異動時，要如何在不變動現在正常運行的程式碼，藉由繼承、相依性注入等方式，增加新的程式碼，以實作新的需求。
 假若為了新需求，去修改了原本的程式中的某一個函數，可能會造成其他呼叫使用該函數的的功能，出現非預期的錯誤。
 ## 里氏替換原則(Liskov substitution principle, LSP)
+[程式碼](https://github.com/xvpowerg/goDesignPattern/blob/master/ch1/solid.srp/lsp.go)
 簡單來說，當實作繼承了 interface 或 base-class的 sub-class，那麼在程式中，只要出現該 interface 或 base-class 的部份，都可以用 sub-class 替換。
 `使用Embedding 取代繼承`
 ## 接口隔離原則(Interface segregation principle, ISP)
